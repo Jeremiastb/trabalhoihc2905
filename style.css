@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    text-align: center;
+    padding: 3px;
+    border-bottom: 2px solid black;
+}
+
+header h1 {
+    font-size: 36px;
+    color: black;
+}
+
+header h1 span {
+    color: red;
+}
+
+header h2 {
+    margin-top: 5px;
+   text-align: center;
+    font-size: 20px;
+    color: #333;
+}
+h2 {
+    text-align: center; 
+    font-size: 40px;
+    color: #333;
+    margin-top: 20px; 
+}
+h3 {
+    text-align: center;
+    font-size: 35px;
+    color: #333;
+    margin-top: 20px;
+}
+.gaeria span {
+    display: inline-block;   
+}
+
+.galeria .texto .linha1 {
+    margin-left: 100px;       
+}
+
+.galeria .texto .linha2 {
+    margin-left: 0px;      
+}
+
+.galeria .texto .linha3 {
+    margin-left: 70px;       
+}
+
+.galeria .texto .linha4 {
+    margin-left: 10px;       
+}
+
+.galeria .texto .linha5 {
+    margin-left: 100px;      
+}
+
+.galeria .texto .linha6 {
+    margin-left: 30px;       
+}
+
+.galeria .texto .linha7 {
+    margin-left: 90px;      
+}
+
+.galeria .texto .linha8 {
+    margin-left: 120px;       
+}
+
+.destaque {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.destaque img {
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px;
+    object-fit: cover;
+}
+.destaque img:nth-child(2) {
+    margin-top: 150px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.galeria .texto {
+    max-width: 700px; 
+    margin-left: 300px; 
+    padding: 10px;   
+    line-height: 1.8; 
+    font-size: 20px;
+}
+p {
+    margin-bottom: 20px;
+    margin-top: 10px;
+   
+}
+.galeria img {
+    max-width: 55%;
+    width: 500px;
+    border-radius: 10px;
+    height: auto;
+    margin-right: 300px;
+    margin-bottom: 30px;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+}
+@media screen and (max-width: 768px) {
+    .destaque {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .galeria {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .galeria .texto {
+        max-width: 500%;
+        margin-bottom: 20px;
+    }
+
+    .galeria img {
+        max-width: 90%; 
+    }
+}
